@@ -1,0 +1,9 @@
+# /etc/profile
+
+# 我个人的一些习惯配置
+
+HISTSIZE=1000000
+#For bash_history to record time
+export HISTTIMEFORMAT="%Y-%m-%d %H:%M:%S "
+
+PS1="\[\e[1;36;40m\][\u\[\e[0m\]\[\e[31;40m\]@\[\e[0m\]\[\e[1;32;40m\]\h.yq01\[\e[0m\] - \[\e[1;36;40m\]\t\[\e[0m\] \[\e[1;31;40m\]\W\[\e[0m\] \[\e[1;36;40m\]\$]\[\e[0m\] "

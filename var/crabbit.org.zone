@@ -1,0 +1,10 @@
+$TTL 1D
+@	IN SOA	 crabbit.org. root.crabbit.org (
+					0	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+	NS	@
+www	A	192.168.1.1
+	AAAA	::1
